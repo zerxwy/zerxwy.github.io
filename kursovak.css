@@ -1,0 +1,47 @@
+body{
+height:100vh;
+margin:0;
+background-image:url(lamba.jpg);
+background-size: cover;
+}
+nav{
+display:flex;
+justify-content:space-evenly;
+}
+header{
+background-color: chocolate;
+size: 200px;
+}
+a{
+text-decoration:none;
+color:brown;
+font-size:34px;
+}
+.golovna{
+font-size:34px;
+font-weight:bold;
+}
+h1{
+    color:rgb(150, 56, 21);
+    text-align:center;
+    margin-top:13%;
+    font-family:Tenor Sans;
+}
+article{
+    color:burlywood;
+    border:3px solid black;
+    background-color:coral;
+    max-width:700px;
+    font-size:2em;
+    padding:15px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+
+
+
+
+
+
