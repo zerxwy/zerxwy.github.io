@@ -1,1 +1,83 @@
+body{
+height:100vh;
+margin:0;
+background-color: rgb(120, 161, 5);
+background-size: cover;
+}
+nav{
+display:flex;
+justify-content:space-evenly;
+}
+header{
+background-color: rgb(48, 207, 0);
+size: 200px;
+}
+a{
+text-decoration:none;
+color:rgb(0, 255, 0);
+font-size:34px;
+}
+.golovna{
+font-size:34px;
+font-weight:bold;
+}
+.card{
+    color:rgb(40, 116, 40);
+    border:3px solid black;
+    background-color:rgb(69, 241, 127);
+    max-width:700px;
+    font-size:2em;
+    padding:15px;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    margin-top:3%;
+}
+article{
+    color:rgb(35, 85, 28);
+    border:3px solid black;
+    background-color:rgb(65, 143, 41);
+    max-width:700px;
+    font-size:2em;
+    padding:15px;
+}
+.price-description{
+    color:rgb(88, 112, 1);
+    border:3px solid black;
+    background-color:rgb(147, 231, 121);
+    max-width:300px;
+    font-size:26px;
+    padding:15px;
+    margin-top:12%;
+}
 
+h1{
+ color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px rgba(255, 0, 60, 0.5), 0 0 20px rgba(255, 0, 60, 0.2);
+}
+
+.price-info{
+    color:rgb(1, 66, 119);
+    border:2px solid black;
+    background-color:rgb(0, 255, 170);
+    max-width:300px;
+    font-size:26px;
+    padding:15px;
+    margin-top:12%;
+}
+
+.cost{
+    color:rgb(255, 166, 0);
+    border:2px solid black;
+    background-color:rgb(200, 255, 0);
+    max-width:300px;
+    font-size:26px;
+    padding:15px;
+    margin-top:12%;
+}
